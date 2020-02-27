@@ -1,0 +1,164 @@
+.container {
+    padding: 16px;
+}
+
+.margin_name_filter {
+    margin-left: 16px;
+}
+
+.header_nav {
+    position: fixed;
+    z-index: 1;
+    background: rgba(33, 33, 33, 1);
+    color: orange;
+}
+
+.header_nav_new_product {
+    background: rgba(33, 33, 33, 1);
+    color: orange;
+}
+
+.header_nav_transactions {
+    background: rgba(33, 33, 33, 1);
+    color: orange;
+}
+
+table {
+    width: 100%;
+}
+
+.new_producto {
+    position: absolute;
+    right: 16px;
+}
+
+.new_producto_close {
+    position: absolute;
+    right: 16px;
+}
+
+.panel_new_producto_open {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 500px;
+    background: white;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-left: solid;
+    border-color: silver;
+    border-width: 1px;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -mz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    z-index: 2;
+}
+
+.panel_new_producto_close {
+    position: fixed;
+    top: 0px;
+    right: -3000px;
+    bottom: 0px;
+    width: 500px;
+    background: white;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-left: solid;
+    border-color: silver;
+    border-width: 1px;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -mz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    z-index: 2;
+}
+
+.form {
+    min-width: 150px;
+    width: 100%;
+    padding: 16px;
+  }
+  
+.form > mat-form-field {
+    width: 470px;
+}
+  
+.form2 > mat-form-field {
+    width: 450px;
+}
+
+.open_product_transactions {
+    cursor: pointer;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -mz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+}
+
+.open_product_transactions:hover {
+    color: #f44336;
+    transform: rotateY(180deg);
+}
+
+.panel_transactions_open {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 500px;
+    background: white;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-left: solid;
+    border-color: silver;
+    border-width: 1px;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -mz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    z-index: 3;
+}
+
+.panel_transactions_close {
+    position: fixed;
+    top: 0px;
+    right: -3000px;
+    bottom: 0px;
+    width: 500px;
+    background: white;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-left: solid;
+    border-color: silver;
+    border-width: 1px;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -mz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    z-index: 3;
+}
+
+.transactions_close {
+    position: absolute;
+    right: 16px;
+}
+
+.header_nowrap {
+    width: 340px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 16px;
+}
+
+.date_transactions {
+    margin-left: 16px;
+    margin-top: 30px;
+}
